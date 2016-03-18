@@ -1,2 +1,2 @@
-# tcp-echo-server
+# tcp-echo-chat-server
 Simple TCP Echo Server
