@@ -15,7 +15,7 @@ void BackendServer::Execute(int sockfd)
 {
 	//create std thread
 	ServerThreadMediator worker(sockfd);
-	worker.CreateIOAndBackendThreads(ioThreadCount);
+	worker.CreateIOAndBackendThreads(threadCount);
 }
 
 }

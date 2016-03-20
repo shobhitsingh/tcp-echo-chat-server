@@ -21,8 +21,6 @@ public:
 	void StartServer();
 	virtual void Execute(int sockfd);
 protected:
-	//Keep default IO thread count as well,
-	const int ioThreadCount = 1;
 	std::string port;
 	Server(std::string& port): port(port){}
 };
