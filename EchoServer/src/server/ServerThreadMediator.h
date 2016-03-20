@@ -35,9 +35,6 @@ public:
 
 	void CreateIOAndBackendThreads(const int &count);
 
-	void AddSession(int fd);
-	void RemoveSession(int fd);
-
 private:
 	int sockfd;
 };
